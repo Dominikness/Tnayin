@@ -1,1 +1,4 @@
-console.log(65555);
+const promise = new Promise((res,rej) => {
+    res();
+});
+console.log(promise);
